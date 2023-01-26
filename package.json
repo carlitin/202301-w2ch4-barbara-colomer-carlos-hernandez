@@ -1,0 +1,35 @@
+{
+  "name": "chalenge-w2ch4",
+  "version": "1.0.0",
+  "description": "Implementa, por parejas, una clase CodersArray que simule el comportamiento de un Array y que tenga estos métodos y propiedades:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest--coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez/issues"
+  },
+  "homepage": "https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0",
+    "jest": "^29.4.1"
+  },
+  "babel": {
+"env": {
+"test": {
+"plugins": [
+"@babel/plugin-transform-modules-commonjs"
+]
+}
+}
+}
+
+}
