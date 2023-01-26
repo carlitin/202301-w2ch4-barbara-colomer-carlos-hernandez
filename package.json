@@ -4,7 +4,8 @@
   "description": "Implementa, por parejas, una clase CodersArray que simule el comportamiento de un Array y que tenga estos métodos y propiedades:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez/issues"
   },
-  "homepage": "https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez#readme"
+  "homepage": "https://github.com/carlitin/202301-w2ch4-barbara-colomer-carlos-hernandez#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
